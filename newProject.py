@@ -72,18 +72,15 @@ dict2.pop("key2")
 print(dict2)
 print(dict2.values())
 print(dict2.keys())
-
-
 for key,value in dict2.items():
     print(key,value)
+file = open("new.txt","r")
 
-
-
-
-
-
-
-
+print(file.read())
+with open("new.txt","r+") as file:
+      file.write("BongoDev")
+with open("new.txt","r") as file:
+    print(file.read())
 
 
 
