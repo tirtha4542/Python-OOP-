@@ -1,0 +1,5 @@
+from urllib.parse import urlparse
+
+url= "https://www.google.com/search?q=blc.diu&rlz=1C1KNTJ_enBD1076BD1076&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIMCAAQIxgnGOoCGK0GMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIMCAYQIxgnGOoCGK0GMgwIBxAjGCcY6gIYrQYyFQgIEAAYQhiRAhi0AhjqAhiABBiKBTIVCAkQABhCGJECGLQCGOoCGIAEGIoFMhUIChAAGEIYkQIYtAIY6gIYgAQYigUyFQgLEAAYQhiRAhi0AhjqAhiABBiKBdIBCTIxMjBqMGoxNagCDLACAfEF_v5PFEBvDPM&sourceid=chrome&ie=UTF-8"
+prsed_url = urlparse(url)
+print(prsed_url)
